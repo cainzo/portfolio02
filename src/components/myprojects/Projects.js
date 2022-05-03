@@ -23,7 +23,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="card-title"
                 >
-                  <h1>Rolling Post</h1>
+                  <h1>Rolling Post Live Demo</h1>
                 </a>
                 <a
                   href="https://github.com/cainzo/DiarioPresentar/blob/main/README.md"
@@ -37,8 +37,8 @@ const Projects = () => {
                   />
                 </a>
                 <p className="p-desc">
-                  Small front and back end project. Hosted using netlify and
-                  heroku.{" "}
+                  NewsPaper: front and back end project. Hosted using netlify and
+                  Heroku for the back end.(Give it 30 secs so the back en can warm up)
                 </p>
               </div>
             </div>
