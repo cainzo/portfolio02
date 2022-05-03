@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import { Col, Container, Nav, Row } from "react-bootstrap";
+import { Col, Container,  Row } from "react-bootstrap";
 import RollingPost from "../../img/rollingpost.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
@@ -20,6 +20,7 @@ const Projects = () => {
                 <a
                   href="https://rollingpost.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                   className="card-title"
                 >
                   <h1>Rolling Post</h1>
@@ -27,6 +28,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/cainzo/DiarioPresentar/blob/main/README.md"
                   target="_blank"
+                  rel="noreferrer"
                   className="link-git"
                 >
                   <FontAwesomeIcon
@@ -47,6 +49,7 @@ const Projects = () => {
 
               <div className="card-dec">
                 <a
+                  href="https://github.com/cainzo/airnbn"
                   className="card-title"
                 >
                   <h1>AirNbN</h1>
@@ -54,6 +57,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/cainzo/airnbn"
                   target="_blank"
+                  rel="noreferrer"
                   className="link-git"
                 >
                   <FontAwesomeIcon
