@@ -1,18 +1,16 @@
 import React, { useRef, useState } from "react";
 import "./about.css";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import NavigationBar from "../navigation/NavigationBar";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBootstrap,
-  faCss3,
   faCss3Alt,
   faGithubSquare,
   faHtml5,
   faJsSquare,
   faNode,
   faReact,
-  faReacteurope,
 } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
 
