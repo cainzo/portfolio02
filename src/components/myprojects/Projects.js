@@ -51,6 +51,9 @@ const Projects = () => {
                 <a
                   href="https://github.com/cainzo/airnbn"
                   className="card-title"
+                  rel="noreferrer"
+
+                  target="_blank"
                 >
                   <h1>AirNbN</h1>
                 </a>
