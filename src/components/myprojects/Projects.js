@@ -69,7 +69,7 @@ const Projects = () => {
             </Container>
           </Col>
           <Col lg={8} className=" p-0">
-            <img src={RollingPost} className=" img" />
+            <img src={RollingPost} className="img" alt="project-img" />
           </Col>
         </Row>
         {/** otra card para otro proyexto */}
@@ -110,44 +110,14 @@ const Projects = () => {
             </Container>
           </Col>
           <Col lg={8} className=" p-0">
-            <img src={Airnbn} className=" img" />
+            <img src={Airnbn} className="img" alt="project-img" />
           </Col>
         </Row>
       </Col>
 
       
 
-      {/*<Col lg={12} md={12} sm={12} className=" mb-2">
-            <div className="card">
-              <img src={Airnbn} alt="" className="card-img" />
-
-              <div className="card-dec">
-                <a
-                  href="https://github.com/cainzo/airnbn"
-                  className="card-title"
-                  rel="noreferrer"
-
-                  target="_blank"
-                >
-                  <h1>AirNbN</h1>
-                </a>
-                <a
-                  href="https://github.com/cainzo/airnbn"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link-git"
-                >
-                  <FontAwesomeIcon
-                    icon={faGithubSquare}
-                    className="card-icon"
-                  />
-                </a>
-                <p className="p-desc ">
-                  Small front end project.
-                </p>
-              </div>
-            </div>
-          </Col>*/}
+     
     </Container>
   );
 };
