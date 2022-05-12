@@ -1,78 +1,58 @@
 .projects {
-    
     text-shadow: 0px 0px 10px #000000;
     font-weight: 600;
-    color: #ffffff7e;
+    color: #ffffffb2;
 }
-
-.projects-wrapper {
+.todo{
+    background-color: rgba(206, 206, 206, 0.342);
+    backdrop-filter: blur(7px); 
     overflow: hidden;
-    border: none !important;
+    height: 300px  !important;
 }
-
-.card {
-    margin-top: 25px;
-    position: relative;
-    width: 101%;
-    height: 500px;
-    overflow: hidden;
-    border-top: 2px solid rgba(230, 141, 8, 0.700) !important;
-    border-bottom: 2px solid rgba(230, 141, 8, 0.700) !important;
+.izq{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.card-img:hover{
-    transform: translateY(-60%);
+a{
+    text-decoration: none;
+}
+.titulo{
+    font-size: 26px;
+    text-decoration: underline;
+    color: rgb(214, 129, 0) !important;
+}
+.desc{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    text-shadow: none;
+}
+.img{
+    width: 100%;
+  
     
-}
-.card-img {
-    width: 100% !important;
-    object-fit: cover;
-    filter: brightness(80%);
     transition: all 3s ease-in;
 }
-
-.card-title {
-    color: rgba(230, 141, 8, 0.700) ;
-    text-decoration: underline 0.15em rgba(255, 255, 255, 0) ;
-    transition: text-decoration-color 500ms ;
+.img:hover{
+    transform: translateY(-60%);
 }
+.icon{
+    font-size: 25px;
+    color: rgb(214, 129, 0) !important;
 
-.card-title:hover {
-    color: rgba(230, 141, 8, 0.700) ;
-    text-decoration-color: rgba(230, 141, 8, 0.700) !important;
-    transform: scale(1.1);
 }
-
-
-.card-icon {
-    color: rgba(230, 141, 8, 0.700) !important;
-    font-size: 50px;
-    text-decoration: none;
-    transition: 0.5s;
+.container-iconos{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
-.card-icon:hover {
-    transform: scale(1.1);
-    color: #9d49c7;
+.icono{
+    font-size: 30px !important;
+    color: rgb(48, 47, 47);
 }
-.card-dec {
-    position: absolute;
-    top: 0%;
-    right: 50%;
-    transform: translate(50%,0%);
-    background-color: #0a0a0aa2;
-    width: 100%;
-    padding: 5px;
-    backdrop-filter: blur(5px);
-    box-shadow: -19px -16px 46px 13px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: -19px -16px 46px 13px rgba(0, 0, 0, 1);
-    -moz-box-shadow: -19px -16px 46px 13px rgba(0, 0, 0, 1);
-}
-
 @media screen and (max-width: 480px) {
-    .card {
-        height: 250px;
-    }
-    .card-img:hover{
-        transform: translateY(-40%);
-        
-    }
+   
 }

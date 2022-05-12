@@ -8,13 +8,7 @@ import NavigationBar from "./components/navigation/NavigationBar";
 
 function App() {
 
- /* const [offsetY , SetOffsetY] = useState(0);
-  const handleScroll= ()=> SetOffsetY(window.scrollY);
-  useEffect(()=>{
-    window.addEventListener('scroll', handleScroll)
 
-    return ()=> window.removeEventListener('scroll', handleScroll)
-  },[])*/
   return (
     <Container className="m-0 p-0 app" id='home' fluid>
       <NavigationBar ></NavigationBar>

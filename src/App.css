@@ -4,8 +4,6 @@
    justify-content: center;
    margin: 0px;
    padding: 0px;
-   height: 100%;
-   
 }
 .bg{
     width: 100%;
@@ -14,19 +12,15 @@
     background-image: url(./img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-  
     position: fixed;
     z-index: -1;
     overflow: hidden;
 }
- .contenido{
-     
-     z-index: 1;
- }  
 
-  @media screen and (max-width: 480px) { 
+
+@media screen and (max-width: 480px) { 
       
-  }
+}
   @media screen and (max-width: 1025px) { 
     
 }@media screen and (max-width: 1500px){
